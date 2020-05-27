@@ -1,0 +1,38 @@
+.mdui-theme-primary-blue-grey .mdui-color-theme {
+	background-color: #3462ed!important
+}
+body {
+	color: rgba(255, 255, 255, .87);
+	background-color: #333232
+}
+* {
+	box-sizing: border-box
+}
+#myInput {
+	background-image: url(https://cdn.jsdelivr.net/gh/sam7oo/gindex2@latest/cari.png);
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+	width: 100%;
+	font-size: 16px;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #ddd;
+	margin-bottom: 12px
+}
+#myUL {
+	list-style-type: none;
+	padding: 0;
+	margin: 0
+}
+#myUL li a {
+	border: 1px solid #ddd;
+	margin-top: -1px;
+	background-color: #1a1717;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #f42828;
+	display: block
+}
+#myUL li a:hover:not(.header) {
+	background-color: #0000A0
+}
